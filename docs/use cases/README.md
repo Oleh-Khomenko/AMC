@@ -125,7 +125,21 @@ EX.6 Некорректно задані дані для побудови
 
 Сценарій №7
 
-![usecase]()
+ID: UC.017
+
+НАЗВА: Побудовати діаграму
+
+УЧАСНИКИ: Користувач, система
+
+ПЕРЕДУМОВИ: Наявність даних
+
+РЕЗУЛЬТАТ: Відображена діаграма
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+EX.6 Некорректно задані дані для побудови
+
+![usecase](http://www.plantuml.com/plantuml/png/XP6nIWD148RxVOeXzfOMdaWQty4sOgA29XBFxegOAsm4KSH25F4DrfYJ8xcih_3F6_apgml6ugQvc_bd_lc6xLxalN5-UNRg2ZmXw0IrNkbKIypWzRfmyXFMbx9jmGlrATYD1VyUX9yL0hwmq5ASfEZWbULtEixDrQQ4oICyFhZGez6oazb8WRS8W0eDVB6s47DRnT6LKKxesA1YHi_eq786VUvP2tIggTy8WNs4GALqD3OizPRABpU_it_CgDkHx-BLH5w_Dqjjmr7Ub_79qN4k6uD1Zv6adODTmJC2Fh543MB_aVRsDxTIeJyyD2jdbTR779rdhiiPllmt)
 
 Сценарій №8
 
