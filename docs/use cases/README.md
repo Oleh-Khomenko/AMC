@@ -1,30 +1,8 @@
 # Модель прецедентів
 ![usecase](http://www.plantuml.com/plantuml/png/PP0_JyCm4CLtVufJM63eqAHTgtOAI20XHM7gOjANo99p3lv3AUB38mSN737vlRlVtLblxxoqFenQoCuRIqKTu7n1qj6ihkNMmSxLA8GGyQ5LM7tj4YT4SEYa0nMD6fZQQSQRUltNU54uKms6bPeUk3T7fiEh2PuQs7VL8OsKT0FqFP3j19_8uYtUIbILdNmqW-AVUfiTF4oJeoV9Si08zaU-VOPrXgM-It192veQUAzuSAbT_V_9lNBUs4i2DjauIttv19apayU7JyJsTuMOaugfxM8kIrikRNMDM4VRhfEBkanwDbLkDhdPYZtu54Rz3G00)
 
-    
-@startuml
-|Користувач|
-        start
-        : Натискає на кнопку "Зареєструватися";
-    |Система|
-        : Надає форму для заповнення;
-    |Користувач| 
-        : Вводить електронну пошту
-        пароль, пароль повторно;
-        : Натискає кнопку "Зареєструватись";
-    |Система|
-        : Перевіряє форму;
-        note right #ffaaaa
-        <b> Можливо
-        <b> EX.001
-        <b> EX.002
-        end note
-        : Створює неактивований обліковий запис;
-        : Створює індентифікатор облікового запису;
-        : Надсилає лист на пошту
-          для її підтвердження;           
-   
-@enduml
+  ![uml](https://github.com/Oleh-Khomenko/AMC/blob/teamlead/src/uml/UC_1)
+
 
 
 
