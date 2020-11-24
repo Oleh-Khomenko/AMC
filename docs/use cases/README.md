@@ -125,7 +125,7 @@ EX.6 Некорректно задані дані для побудови
 
 Сценарій №7
 
-ID: UC.017
+ID: UC.7
 
 НАЗВА: Побудовати діаграму
 
@@ -143,11 +143,23 @@ EX.6 Некорректно задані дані для побудови
 
 Сценарій №8
 
-![usecase]()
+ID: UC.8
 
-Сценарій №9
+НАЗВА: Побудувати таблицю
 
-![usecase]()
+УЧАСНИКИ: Користувач, система
+
+ПЕРЕДУМОВИ: Наявність даних
+
+РЕЗУЛЬТАТ: Відображена таблиця
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+EX.6 Некорректно задані дані для побудови
+
+![usecase](http://www.plantuml.com/plantuml/png/XP6nIWD148RxVOeXzfOMHYIDxs0RCL514ubhjqLCG1kn44aXYlW66uaIphlp5Vvv8_yTPS53k2bkRsVc_-PVfdVX-nD_UNRg0XvHwnHhlTAPpl66g3V1oMzONxvj2vvPdwLk5Fnx41uLQdoXqBauoT712zDB4bT6DPNm4x749m7NUjVfcY3W5JOUxoWHGsCSLZP85wZCuvIyagrL8luGMXv1pZrpDKbhrc-5TYFRO-8aOjFPejrOVXrFZljFRp4Q-u5CJewElMmCXtr6BkqSx0gUgFz8icJmJsblVtCh9mQZGqCvoxGkRNpUTJrgkE5l)
+
+
 
 
 
