@@ -89,7 +89,7 @@ ID: UC.5
 
 НАЗВА: Задання ключових слів для пошуку
 
-УЧАСНИКИ: Аналітик, система
+УЧАСНИКИ: Користувач, система
 
 ПЕРЕДУМОВИ: Наявність замовлення
 
@@ -105,7 +105,23 @@ ID: UC.5
 
 Сценарій №6
 
-![usecase]()
+ID: UC.6
+
+НАЗВА: Побудувати графік
+
+УЧАСНИКИ: Користувач, система
+
+ПЕРЕДУМОВИ: Наявність даних
+
+РЕЗУЛЬТАТ: Відображений графік
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+EX.6 Некорректно задані дані для побудови
+
+ОСНОВНИЙ СЦЕНАРІЙ:
+
+![usecase](http://www.plantuml.com/plantuml/png/ZP6nIWD148RxVOeXzfOMdaWQty4sOgA29fAitHOn4Qm5KH15V8DLeuGpjxx2Fs_altjXqMlEQUvkvf_l_uVhJcnlR2_EJet30u9EiTHBdUaSR_1wxOoiA-dorxRWYVDPLAFaswtmKI7W6wNEnKYk3fxPVYLniQPoI_1EAwzNUeUoKoIvmqjjZW-iu5t338jamuKg9PoIjgAqYhoQq782EVUPmw0-HeYCI6jaWcyFTLFVHDZlpI9BXYFRb_79qR6LZS6WnygZdODTmIC2Fl659OE6FwEz_SsjtEWF3nFA_EV6YHsT5wRB7VxJ7m00)
 
 Сценарій №7
 
