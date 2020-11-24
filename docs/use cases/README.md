@@ -81,20 +81,19 @@ ID: UC.4
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/VP0x3i8m44HxdsALO-0cLq62ZW-2qBaW192ee41G8SGDBC0ICZYvmkoDs8J81GLRh3-QUJjsEikwqsm-72Y3FG8iNdpa9PxmHb5RZIQUEeGpRAtX75vs1v8be4G5pmKfYfNW0iSBEDo5kqFWelOHvxmM_KqGMxX4DnQ3AmGf0eSthFaPYCTtLDKI9ISyIGkyGYbNuk6DX3_fw2GLsz_dZITQfVrHJ_xX0m00)
+![usecase](http://www.plantuml.com/plantuml/png/VL0x3i8m3Drp2gl7e4klWWGR7mHbom0KiSA0O4A86qI2YYeqpHMURuHJgY0nuC697RzFd2to_ZnVZaTAum07WnUVU8CALYlgefs9LOzmWGapl8QLsv7aS6ZWORaWHJ4IN57o2YNkmhk7uoBW24yOU5IXID8Me74BXD8fKSFe7payFaA-unENi2J9yHQDj6fvtudrS_hLLp7z_TnqbgfiE1d85ju0)
 
 Сценарій №5
 
-Сценарій №13
-ID: UC.013
+ID: UC.5
 
-НАЗВА: Задання ключових слів відбору
+НАЗВА: Задання ключових слів для пошуку
 
 УЧАСНИКИ: Аналітик, система
 
 ПЕРЕДУМОВИ: Наявність замовлення
 
-РЕЗУЛЬТАТ: Відібрана інформація
+РЕЗУЛЬТАТ: Надана інформація
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
@@ -102,7 +101,7 @@ ID: UC.013
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase]()
+![usecase](http://www.plantuml.com/plantuml/png/XP4zIiL058NxhEBobk4qRok2Tlw8BtPJQ4RKGeA899M5EnXbecRoaosSkoCFen4KGgQwWU-S-rsotUNxv_d5yL5cyO017frMMk0JqMRoynBp-xKdU8PNCdg5oEb941aTCI6gandasw1cO_YcIR6yr5kIRre9qnqumczCobYyW9ra6_Jmzjz6XBHBhp7g9NfrSshHcxb7zey8x2tqVjbWNQ16q0ej8mCRUF94ZJjrYERFFaA1dQzKz7XFnlX8WYq26gQTa1dcCqZSqBmq8cldxFBJCvDj3qyE-B--0000)
 
 Сценарій №6
 
