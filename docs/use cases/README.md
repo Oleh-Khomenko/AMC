@@ -69,7 +69,7 @@ ID: UC.4
 
 НАЗВА: Перегляд запитів
 
-УЧАСНИКИ: Аналітик, Cистема
+УЧАСНИКИ: Користувач, Cистема
 
 ПЕРЕДУМОВИ: Наявність запиту
 
@@ -81,7 +81,7 @@ ID: UC.4
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/VL0x3i8m3Drp2gl7e4klWWGR7mHbom0KiSA0O4A86qI2YYeqpHMURuHJgY0nuC697RzFd2to_ZnVZaTAum07WnUVU8CALYlgefs9LOzmWGapl8QLsv7aS6ZWORaWHJ4IN57o2YNkmhk7uoBW24yOU5IXID8Me74BXD8fKSFe7payFaA-unENi2J9yHQDj6fvtudrS_hLLp7z_TnqbgfiE1d85ju0)
+![usecase](http://www.plantuml.com/plantuml/png/XP0z2i8m7CNtd2Bq67RfLGJT_12jMuRQYeukKa4GyGP5BPRKjbTuxqOcRQZWudzuv97tyaiIhCBXCbnF9qBXZ9eH2cuOCy4T6VTAI3TjhdS3YOlPZsqQsgoE4XeLQZJGJAGBsl5mHSu8EHueUK35nFOaNiZGeB36yzk2mgt38ySRcVh1uTc16dTUoHHQ6gcujLUt7UwOykH_-QANlm-SBtmHZ6SZyniV)
 
 Сценарій №5
 
@@ -101,7 +101,7 @@ ID: UC.5
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/XP4zIiL058NxhEBobk4qRok2Tlw8BtPJQ4RKGeA899M5EnXbecRoaosSkoCFen4KGgQwWU-S-rsotUNxv_d5yL5cyO017frMMk0JqMRoynBp-xKdU8PNCdg5oEb941aTCI6gandasw1cO_YcIR6yr5kIRre9qnqumczCobYyW9ra6_Jmzjz6XBHBhp7g9NfrSshHcxb7zey8x2tqVjbWNQ16q0ej8mCRUF94ZJjrYERFFaA1dQzKz7XFnlX8WYq26gQTa1dcCqZSqBmq8cldxFBJCvDj3qyE-B--0000)
+![usecase](http://www.plantuml.com/plantuml/png/ZP7DIiD058NtUOfB7yFPz5K4tVaZDkvceHsnBYGBaHG45xx1MARQ9fd9AvpxHXuc6b2Gc4rcSh_3-IwPByh3o_BgzAImU4RIQ-pqHfVgi87NbItawydSU3iGl72-16aqF3q9Nn49FHfrCe8YCwpX4GQQ55gjT4LoexKmtVB8hfd96OlNmG1RTF3sLoD2xjBRhDgf6r8Jxim-ybjYUiVvmzyMqn9h1AsnPoHgHHNqRBvdPsD-z14AI7YZbSTxjiO78Yzx3hPCEo4JlrSXSQUrLaRaFoijolCBKyoFpuxuxpu1)
 
 Сценарій №6
 
