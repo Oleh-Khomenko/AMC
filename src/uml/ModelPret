@@ -1,0 +1,28 @@
+@startuml
+actor "Гість" as Гість
+actor "Користувач" as Користувач
+
+
+Користувач <|-u- Гість
+
+
+usecase "Зареєструватися" as SG1
+usecase "Переглянути загальну\n інформацію про сервіс" as SG2 #eeffee
+usecase "Відправити запит" as SG3
+
+usecase "Увійти" as SU1
+usecase "Управління" as SU2 
+usecase "Налаштування" as SU3 #eeffee
+usecase "Історія запитів" as SU4
+usecase "Аналіз тексту" as SU5 #eeffee
+
+Гість -u-> SG1
+Гість -u-> SG2
+Гість -u-> SG3
+
+Користувач -l-> SU1
+Користувач -> SU2
+Користувач --> SU3
+Користувач --> SU4
+Користувач --> SU5
+@enduml
