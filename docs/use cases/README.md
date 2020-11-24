@@ -65,9 +65,42 @@ EХ.005 Невірний логін або пароль
 
 Сценарій №4 
 
-![usecase]()
+ID: UC.4
+
+НАЗВА: Перегляд запитів
+
+УЧАСНИКИ: Аналітик, Cистема
+
+ПЕРЕДУМОВИ: Наявність запиту
+
+РЕЗУЛЬТАТ: Перелік зібраної інформації
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+Відсутні
+
+ОСНОВНИЙ СЦЕНАРІЙ:
+
+![usecase](http://www.plantuml.com/plantuml/png/VP0x3i8m44HxdsALO-0cLq62ZW-2qBaW192ee41G8SGDBC0ICZYvmkoDs8J81GLRh3-QUJjsEikwqsm-72Y3FG8iNdpa9PxmHb5RZIQUEeGpRAtX75vs1v8be4G5pmKfYfNW0iSBEDo5kqFWelOHvxmM_KqGMxX4DnQ3AmGf0eSthFaPYCTtLDKI9ISyIGkyGYbNuk6DX3_fw2GLsz_dZITQfVrHJ_xX0m00)
 
 Сценарій №5
+
+Сценарій №13
+ID: UC.013
+
+НАЗВА: Задання ключових слів відбору
+
+УЧАСНИКИ: Аналітик, система
+
+ПЕРЕДУМОВИ: Наявність замовлення
+
+РЕЗУЛЬТАТ: Відібрана інформація
+
+ВИКЛЮЧНІ СИТУАЦІЇ:
+
+Відсутні
+
+ОСНОВНИЙ СЦЕНАРІЙ:
 
 ![usecase]()
 
