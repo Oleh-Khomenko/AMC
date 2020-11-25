@@ -129,17 +129,18 @@ NLP "AMC" представляє собою програмне забезпеч�
 - Вся подальша модерація текстів, зокрема об'єднання поточного тексту з отриманим або заміна поточного тексту отриманим. 
 
 
+
+    
+
+### 5.2 Лінгвіст
+![](http://www.plantuml.com/plantuml/png/XPBDJi9058NtynGJzYmeh0qx5xepFa03n90e9hJi-OaODv8OmqR5LnY1nWgqliAvR-GPA7HeIDmqbplddlFTOUf1w7V3tjsjyXlXVLUNy2PJ95XWBbCPoB2a_K1VjZitlNOGAjKBMWq_Q54taw7q4MC3GtqY4or3H5ZP8HbfBB5c3oc-AECNAyHRiwlhYcFpGejl6XXvH9GPxHioaYV4yg1vPgmljSbHJ6RekORaN-ANeGPpXXgNOMqpM2sG5d0DXpPszTtQTfo2LFg7aEf_rFoPZQRoh8b0a1EmDVSMFn4nOe3KJky4v-xrl5gCmucxv_iMT8meEtFnPcHOmDXbY6baJEqaqnt5Vo2omktDpf7m-xEJNLIE85FQn2TKdbBxjr5kbi_iVrjiUCL6jTYeAQfipTNpqilBQbvQRSsM9CnBJzLRdIPVyHy0)
+
 Так само як і адміністратор лінгвіст виконує свої певні завдання. Наприклад він має змогу:
 
 -	Виділяти значущі частини у тексті: особи, дати, місця, числа та інше, що потрібно для аналізу
 -	Отримувати тест для обробки інформації
 -	Визначення настрою підтексту (позитивний або негативний), щоб потім із цих даних зробити потрібну статистику
 -	Всі результати роботи у вигляді обробленого тексту відправляються адміністратору
-
-    
-
-### 5.2 Лінгвіст
-![](http://www.plantuml.com/plantuml/png/XPBDJi9058NtynGJzYmeh0qx5xepFa03n90e9hJi-OaODv8OmqR5LnY1nWgqliAvR-GPA7HeIDmqbplddlFTOUf1w7V3tjsjyXlXVLUNy2PJ95XWBbCPoB2a_K1VjZitlNOGAjKBMWq_Q54taw7q4MC3GtqY4or3H5ZP8HbfBB5c3oc-AECNAyHRiwlhYcFpGejl6XXvH9GPxHioaYV4yg1vPgmljSbHJ6RekORaN-ANeGPpXXgNOMqpM2sG5d0DXpPszTtQTfo2LFg7aEf_rFoPZQRoh8b0a1EmDVSMFn4nOe3KJky4v-xrl5gCmucxv_iMT8meEtFnPcHOmDXbY6baJEqaqnt5Vo2omktDpf7m-xEJNLIE85FQn2TKdbBxjr5kbi_iVrjiUCL6jTYeAQfipTNpqilBQbvQRSsM9CnBJzLRdIPVyHy0)
 
 
 ## 6. Практичність
