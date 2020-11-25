@@ -121,6 +121,13 @@ NLP "AMC" представляє собою програмне забезпеч�
 ### 5.1 Адміністратор
 ![](http://www.plantuml.com/plantuml/png/XP8zJiD048NxFSKg3LKA76eKAWw0E82Lk40YHegTtYJYfq0o0cGwk49YR2LA_7E5DpVYQGbY4B8elDhPcVdUlFKEezYVnhF9fV57yTNKzl280fLag2MJQvbBWgNCqKZIitvaJyQJYz2OMHIC_2XW-JDAr2XTsIrRKXjQRDc_amTiqJX6Pb4oM7Ejq3ALIiAIt9BCXAjPEFxP-Q62Fx6eG2k48oTWsSL13UOQh5ZAbSY5PPeky87yomaPrLx3KnflpkC65VCrNQUQitFkDdAZ9wNWdZDGd7Ss56JGjznp6W9ve6-6OAtLZJqoUZwi3kI5fFfdm1OayRlZGKE7ZURG-VgFrBVrKtszhynLr2NvVsONq3F6FOh-k7_iVf-El5_HG4TqoS_jEPNQUsOOX6C-oKy0)
 
+Основними вимогами до адміністратора є:
+
+- Генерація екземплярів тексту.
+- Відправка тексту лінгвістам на обробку.
+- Отримання оброблених екземплярів тексту.
+- Вся подальша модерація текстів, зокрема об'єднання поточного тексту з отриманим або заміна поточного тексту отриманим. 
+    
 
 ### 5.2 Лінгвіст
 ![](http://www.plantuml.com/plantuml/png/XPBDJi9058NtynGJzYmeh0qx5xepFa03n90e9hJi-OaODv8OmqR5LnY1nWgqliAvR-GPA7HeIDmqbplddlFTOUf1w7V3tjsjyXlXVLUNy2PJ95XWBbCPoB2a_K1VjZitlNOGAjKBMWq_Q54taw7q4MC3GtqY4or3H5ZP8HbfBB5c3oc-AECNAyHRiwlhYcFpGejl6XXvH9GPxHioaYV4yg1vPgmljSbHJ6RekORaN-ANeGPpXXgNOMqpM2sG5d0DXpPszTtQTfo2LFg7aEf_rFoPZQRoh8b0a1EmDVSMFn4nOe3KJky4v-xrl5gCmucxv_iMT8meEtFnPcHOmDXbY6baJEqaqnt5Vo2omktDpf7m-xEJNLIE85FQn2TKdbBxjr5kbi_iVrjiUCL6jTYeAQfipTNpqilBQbvQRSsM9CnBJzLRdIPVyHy0)
