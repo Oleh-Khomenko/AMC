@@ -1,0 +1,18 @@
+@startuml
+actor "Адміністратор" as Admin
+
+usecase "Генерація n кількості екземплярів тексту" as SU1
+usecase "Відправка екземплярів на обробку лінгвістам" as SU2
+usecase "Отримання оброблених текстів" as SU3
+usecase "Подальша модерація отриманих текстів" as SU4
+
+usecase "Об'єднання поточного тексту з отриманим" as SG1
+usecase "Заміна поточного тексту отриманим" as SG2
+
+Admin-d-> SU1
+Admin-d-> SU2
+Admin-d-> SU3
+Admin-d-> SU4
+SU4-d-> SG1
+SU4-d-> SG2
+@enduml
