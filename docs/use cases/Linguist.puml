@@ -1,0 +1,27 @@
+@startuml
+actor "Лінгвіст" as Linguist
+
+usecase "Отримання тексту для обробки" as SU1
+usecase "Визначення значущих частин тексту" as SU2
+usecase "Відправка обробленого тексту адміністратору" as SU3
+usecase "Визначення настрою підтексту" as SU4
+
+usecase "Персона" as SG1
+usecase "Дата" as SG2
+usecase "Місце" as SG3
+usecase "Організація" as SG4
+
+usecase "Негативний" as SK1
+usecase "Позитивний" as SK2
+
+Linguist-d-> SU1
+Linguist-d-> SU2
+Linguist-d-> SU3
+Linguist-d-> SU4
+SU2-d->SG1
+SU2-d->SG2
+SU2-d->SG3
+SU2-d->SG4
+SU4-d->SK1
+SU4-d->SK2
+@enduml
