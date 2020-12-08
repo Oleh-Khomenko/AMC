@@ -119,14 +119,16 @@ NLP "AMC" представляє собою програмне забезпеч�
 2. Лінгвіст [(згідно з вікі)](https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B2%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B5%D1%86%D1%8C) - фахівець із мовознавства (лінгвістики). Синонімічна назва — лінгві́ст.
 
 ### 5.1 Адміністратор
-![](http://www.plantuml.com/plantuml/png/XP8zJiD048NxFSKg3LKA76eKAWw0E82Lk40YHegTtYJYfq0o0cGwk49YR2LA_7E5DpVYQGbY4B8elDhPcVdUlFKEezYVnhF9fV57yTNKzl280fLag2MJQvbBWgNCqKZIitvaJyQJYz2OMHIC_2XW-JDAr2XTsIrRKXjQRDc_amTiqJX6Pb4oM7Ejq3ALIiAIt9BCXAjPEFxP-Q62Fx6eG2k48oTWsSL13UOQh5ZAbSY5PPeky87yomaPrLx3KnflpkC65VCrNQUQitFkDdAZ9wNWdZDGd7Ss56JGjznp6W9ve6-6OAtLZJqoUZwi3kI5fFfdm1OayRlZGKE7ZURG-VgFrBVrKtszhynLr2NvVsONq3F6FOh-k7_iVf-El5_HG4TqoS_jEPNQUsOOX6C-oKy0)
+![](http://www.plantuml.com/plantuml/uml/bLAzJi9W5Dtx53TCC308k1g8iwCFG0A3YJ1Ot6aRTJ7HgS_nKLkfKE0LpdqZJs_rIwnnS6ll-JddtdOShgPtg_l5RT31At9KckAWgKOQwnfEOnnrtP5fA9FPucOPa7OYKE83bS6bO0k74qgD1HdbkM175KdcaY0ZyGbEkdmgoJuqxuqu9_MHghq---3KUzRwdiLthyFvMO_n5c4b73BANjebY1HaEEoQzffuWy7V1XfzjyORZdLdzkIQl-m8LZztbidLfOyOCeAqs9ogPdiBe6vZwWtsTEIkmdb1swZ6_Usg6hJ8TnHrIMyzilRMl2b8ohy2X933LXEXrFRJ1-z-tWi2-yRIxrzydRir6BG7m_PWr1xGTJnVplY3VG80)
 
 Основними вимогами до адміністратора є:
 
-- Генерація екземплярів тексту.
-- Відправка тексту лінгвістам на обробку.
-- Отримання оброблених екземплярів тексту.
-- Вся подальша модерація текстів, зокрема об'єднання поточного тексту з отриманим або заміна поточного тексту отриманим. 
+-   приймати запит від користувача (визначати доцільністі запиту);
+-	відправляти запит редактору; 
+-	відправляти скоригований редактором запит в AMC; 
+-	отримувати оброблені тексти від менеджера; 
+-	впроваджувати оброблені тексти в базу даних.
+ 
 
 
 
