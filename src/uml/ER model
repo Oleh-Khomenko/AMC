@@ -1,0 +1,62 @@
+@startuml
+entity Text #e3daff{
+    content: text
+    title: text
+}
+entity Corpus #e3daff{
+    name: text
+    description: text 
+}
+
+
+entity User #e3daff{
+    email: email
+    password: pwdString
+    avatar: url
+}
+
+note "Any authorized user\n can create \na corpus. In this case, \nthey are assigned \nthe owner role" as noteA #988bb7
+
+entity Role #e3daff{
+    name: text 
+    description: text
+}
+
+note "Available role:\n Owner, Collaborator" as noteR #988bb7
+noteR ..> Role
+
+entity Branch #e3daff{
+    name: text
+} 
+
+entity Commit #e3daff{
+    id: GUID
+    description: text
+    createdAt: Date
+}
+
+Commit "0,*" -u- "1,1" Branch
+Commit "0,*" -l-> "1,1" User
+Branch "0,*" -u-> "1,1" Corpus
+Corpus "0,*" --> "1,1\n defaultBranch" Branch
+
+
+entity Annotation #e3daff{
+    tom: json
+}
+
+note "Entity of\n 'Text Object Model'" as noteAnn #988bb7 
+noteAnn .> Annotation
+
+Annotation "0,*" -u-> "1,1" Commit
+
+
+Annotation "0,*" --> "Source\n1,1" Text
+
+
+noteA ..> User
+
+Text "0,*"--"1,1" Corpus
+User "0,*"--"1,1" Corpus
+Role "1,1"--"0,*" User
+@enduml
