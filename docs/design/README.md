@@ -1,5 +1,9 @@
 # Проєктування бази даних
 
+## BE-модель
+
+![BEmodel](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Oleh-Khomenko/AMC/teamlead/src/uml/BEmodel.puml)
+
 ## ER-модель 
 
 ![ERmodel](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/Oleh-Khomenko/AMC/teamlead/src/uml/ERmodel.puml)
