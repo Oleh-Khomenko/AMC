@@ -119,7 +119,7 @@ NLP "AMC" представляє собою програмне забезпеч�
 2. Лінгвіст [(згідно з вікі)](https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B2%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B5%D1%86%D1%8C) - фахівець із мовознавства (лінгвістики). Синонімічна назва — лінгві́ст.
 
 ### 5.1 Адміністратор
-![](http://www.plantuml.com/plantuml/uml/bLAzJi9W5Dtx53TCC308k1g8iwCFG0A3YJ1Ot6aRTJ7HgS_nKLkfKE0LpdqZJs_rIwnnS6ll-JddtdOShgPtg_l5RT31At9KckAWgKOQwnfEOnnrtP5fA9FPucOPa7OYKE83bS6bO0k74qgD1HdbkM175KdcaY0ZyGbEkdmgoJuqxuqu9_MHghq---3KUzRwdiLthyFvMO_n5c4b73BANjebY1HaEEoQzffuWy7V1XfzjyORZdLdzkIQl-m8LZztbidLfOyOCeAqs9ogPdiBe6vZwWtsTEIkmdb1swZ6_Usg6hJ8TnHrIMyzilRMl2b8ohy2X933LXEXrFRJ1-z-tWi2-yRIxrzydRir6BG7m_PWr1xGTJnVplY3VG80)
+![](http://www.plantuml.com/plantuml/png/bPAnJi9G68NtFiKV9XaO15mDnDdH1o21mKGOBEwqZN7KYUUuO2iLIdc5yx-Hv_uDDw76mVMSSxzpxcr7yNBol7oPFqKTV217fMiSTQs9fhg2qnIrhZeoYMKydJyk8iPED4fyepAx5EpWS4AfgM3BuxbWZzg7Z99Xo-0Rd56k7kBPTPSKInhBCN3GzpQBJi64mxuPeLa0zFy6Q78knoTgNusZN_iBHxEwd2xZ-xjGCM05OwcHgkOIpS8Q6pkzmO54lfLGBuXDl1-UeFAcLNwXy2C3UcZhRRaDz95_5GWjXvrcWhovdxu6-aqtYknJIQztUtxkIw7V5WPjOTWMI1tD5bF-9py0)
 
 Основними вимогами до адміністратора є:
 
