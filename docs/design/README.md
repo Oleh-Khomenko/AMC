@@ -6,4 +6,4 @@
 
 ## Реляційна модель
 
-![](../../guidelines/media/)
+![](../../guidelines/media/76AA3F2A-208C-4FA4-813C-CF3A5C3D3977.png)
