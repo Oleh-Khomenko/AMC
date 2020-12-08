@@ -51,7 +51,7 @@ noteAnn .> Annotation
 Annotation "0,*" -u-> "1,1" Commit
 
 
-Annotation "0,*" --> "Source\n1,1" Text
+Annotation "1,*" --> "Source\n1,1" Text
 
 
 noteA ..> User
