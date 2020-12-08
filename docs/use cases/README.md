@@ -67,33 +67,33 @@ EХ.005 Невірний логін або пароль
 
 ID: UC.4
 
-НАЗВА: Перегляд запитів
+НАЗВА: Відправка запиту корисувачем
 
-УЧАСНИКИ: Користувач, Cистема
+УЧАСНИКИ: Користувач, система
 
 ПЕРЕДУМОВИ: Наявність запиту
 
-РЕЗУЛЬТАТ: Перелік зібраної інформації
+РЕЗУЛЬТАТ: Збір інформації
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-Відсутні
+EX.6 Користувач відправив запит, що не містить змісту
+
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/XP0z2i8m7CNtd2Bq67RfLGJT_12jMuRQYeukKa4GyGP5BPRKjbTuxqOcRQZWudzuv97tyaiIhCBXCbnF9qBXZ9eH2cuOCy4T6VTAI3TjhdS3YOlPZsqQsgoE4XeLQZJGJAGBsl5mHSu8EHueUK35nFOaNiZGeB36yzk2mgt38ySRcVh1uTc16dTUoHHQ6gcujLUt7UwOykH_-QANlm-SBtmHZ6SZyniV)
 
 Сценарій №5
 
 ID: UC.5
 
-НАЗВА: Задання ключових слів для пошуку
+НАЗВА: Перевірка адміністратором запиту
 
-УЧАСНИКИ: Користувач, система
+УЧАСНИКИ: Адміністратор, система
 
-ПЕРЕДУМОВИ: Наявність замовлення
+ПЕРЕДУМОВИ: Наявність змістовного запиту
 
-РЕЗУЛЬТАТ: Надана інформація
+РЕЗУЛЬТАТ: Інформація передається редактору
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
@@ -101,27 +101,26 @@ ID: UC.5
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/ZP7DIiD058NtUOfB7yFPz5K4tVaZDkvceHsnBYGBaHG45xx1MARQ9fd9AvpxHXuc6b2Gc4rcSh_3-IwPByh3o_BgzAImU4RIQ-pqHfVgi87NbItawydSU3iGl72-16aqF3q9Nn49FHfrCe8YCwpX4GQQ55gjT4LoexKmtVB8hfd96OlNmG1RTF3sLoD2xjBRhDgf6r8Jxim-ybjYUiVvmzyMqn9h1AsnPoHgHHNqRBvdPsD-z14AI7YZbSTxjiO78Yzx3hPCEo4JlrSXSQUrLaRaFoijolCBKyoFpuxuxpu1)
 
 Сценарій №6
 
 ID: UC.6
 
-НАЗВА: Побудувати графік
+НАЗВА: Адміністратор передає редактору запит
 
-УЧАСНИКИ: Користувач, система
+УЧАСНИКИ: Адміністратор, редактор
 
 ПЕРЕДУМОВИ: Наявність даних
 
-РЕЗУЛЬТАТ: Відображений графік
+РЕЗУЛЬТАТ: Редактор приступить до обробки запиту
 
 ВИКЛЮЧНІ СИТУАЦІЇ:
 
-EX.6 Некорректно задані дані для побудови
+EX.6 Некорректно переданий запит
 
 ОСНОВНИЙ СЦЕНАРІЙ:
 
-![usecase](http://www.plantuml.com/plantuml/png/ZP6nIWD148RxVOeXzfOMdaWQty4sOgA29fAitHOn4Qm5KH15V8DLeuGpjxx2Fs_altjXqMlEQUvkvf_l_uVhJcnlR2_EJet30u9EiTHBdUaSR_1wxOoiA-dorxRWYVDPLAFaswtmKI7W6wNEnKYk3fxPVYLniQPoI_1EAwzNUeUoKoIvmqjjZW-iu5t338jamuKg9PoIjgAqYhoQq782EVUPmw0-HeYCI6jaWcyFTLFVHDZlpI9BXYFRb_79qR6LZS6WnygZdODTmIC2Fl659OE6FwEz_SsjtEWF3nFA_EV6YHsT5wRB7VxJ7m00)
+
 
 Сценарій №7
 
