@@ -1,31 +1,31 @@
-@startuml
-entity User
-entity User.email
-entity User.password 
-entity User.avatar
+@startuml 
+entity User #e3daff
+entity User.email #e3daff
+entity User.password #e3daff
+entity User.avatar #e3daff
 
-entity Role
-entity Role.name
-entity Role.desciption
+entity Role #e3daff
+entity Role.name #e3daff
+entity Role.desciption #e3daff
 
-entity Commit
-entity Commit.id
-entity Commit.description
-entity Commit.createdAt
+entity Commit #e3daff
+entity Commit.id #e3daff
+entity Commit.description #e3daff
+entity Commit.createdAt #e3daff
 
-entity Annotation
-entity Annotation.tom
+entity Annotation #e3daff
+entity Annotation.tom #e3daff
 
-entity Text
-entity Text.content
-entity Text.title
+entity Text #e3daff
+entity Text.content #e3daff
+entity Text.title #e3daff
 
-entity Corpus
-entity Corpus.name
-entity Corpus.description
+entity Corpus #e3daff
+entity Corpus.name #e3daff
+entity Corpus.description #e3daff
 
-entity Branch
-entity Branch.name
+entity Branch #e3daff
+entity Branch.name #e3daff
 
 
 User.email -d-* User
