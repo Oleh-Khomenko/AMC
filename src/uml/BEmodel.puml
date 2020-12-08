@@ -1,0 +1,64 @@
+@startuml
+entity User
+entity User.email
+entity User.password 
+entity User.avatar
+
+entity Role
+entity Role.name
+entity Role.desciption
+
+entity Commit
+entity Commit.id
+entity Commit.description
+entity Commit.createdAt
+
+entity Annotation
+entity Annotation.tom
+
+entity Text
+entity Text.content
+entity Text.title
+
+entity Corpus
+entity Corpus.name
+entity Corpus.description
+
+entity Branch
+entity Branch.name
+
+
+User.email -d-* User
+User.password -d-* User
+User.avatar -d-* User
+
+Role.name -r-* Role
+Role.desciption -r-* Role
+
+Commit.id -r-* Commit
+Commit.description -r-* Commit
+Commit.createdAt -r-* Commit
+
+Annotation.tom -u-* Annotation
+
+Text.content -u-* Text
+Text.title -l-* Text
+
+Corpus.name -d-* Corpus
+Corpus.description -l-* Corpus
+
+Branch.name -l-* Branch
+
+
+User "(0,*)"-l-"(1,1)" Role
+User "0,*"-r-"1,1" Corpus
+User "(1,1)"-d-"(0,*)" Commit
+
+Commit "0,*" -r- "1,1" Branch
+Commit "1,1" -d- "1,*" Annotation
+
+Corpus "0,*" -d- "1,1" Branch
+Corpus "1,1" -d- "0,*" Text
+
+Text "1,1" -l- "0,*" Annotation
+@enduml
