@@ -131,10 +131,6 @@ NLP "AMC" представляє собою програмне забезпеч�
 -	Відправляти скоригований редактором запит в AMC; 
 -	Отримувати оброблені тексти від менеджера; 
 -	Впроваджувати оброблені тексти в базу даних.
- 
-
-
-
     
 
 ### 5.2 Лінгвіст
@@ -145,24 +141,8 @@ NLP "AMC" представляє собою програмне забезпеч�
 -	Виділяти значущі частини у тексті: особи, дати, місця, числа та інше, що потрібно для аналізу;
 -	Всі результати роботи у вигляді обробленого тексту відправляються адміністратору;
 
-
-
-
-
-### 5.3 Редактор
-![](http://www.plantuml.com/plantuml/png/VP1FJeKm6CJtdE8BArbm1SDLYBZpJr9mZt004nUuCnwXyaUHq7g5-MxaK5_8UniMCFDrqj-qpSegDzNJ_LsKtrIFHc9yOC88YqKRUArZoKinHMGAITDhkSAxDbfZnWeB1wSlWc_QNymCMa6l7KQ19MIbTThfSzXY0v2QxB2zRD0M_H6Gepyv1oyK_hWMo1C-1Oxomy7JEGPlWXLJIB-qE-jy_USniUnSO0N31jeA-D5V7E3WAjecKNRxKF3v_W00)
-
-Редактор слідкує за правильністю запиту відповідно до вимог. До його можливостей входить: 
  
--  Отримання запиту від адміністратора;
--  Редагування запитів відповідно до потреб нейронної мережі;
--  Відправка готового запиту адміністратору;
- 
- 
- 
- 
- 
- ### 5.4 Менеджер: 
+ ### 5.3 Менеджер: 
  ![](http://www.plantuml.com/plantuml/png/ZP4zJiD044PxdsAKYXIv0ifLB4p7Z-IOtd44RIIGJ8EGkC7YUACGUpTNU7CZTaGHAnMDYtdp_CsdNQwglAoUxk-o_APwB6N61vw0fsUFrtec-KhA8YiBMIokvOetuqPm-gAjRaKRdD1fIy_9vdGSSJRt77MjJKAT46mjygsrVHFP24D2WPtPjeXZd9-pFfDQSs344GYwdVg37S91do-29lvN8Xqn2Vxidx118B8ZYguPY7JsA-ngUWPR37X-BCfCehuB8rRRizTs4l9wMVm_8OwUqRh_zJPP6tDqCy-Mjmz5Uf9V)
  
  Серед можливостей менеджера можна назвати такі як:
@@ -172,10 +152,8 @@ NLP "AMC" представляє собою програмне забезпеч�
  - Відправка опорного словника адміністратору;
  
  
- 
- 
 
-### 5.5 Користувач:
+### 5.4 Користувач:
 ![](http://www.plantuml.com/plantuml/png/VP51IiDW48NtESNGLGFs0br8tRZq3a4Z5AA2IVOrAReHwaAY2DxXjrZoeqsymdjNy2HEfb4KInS9aypxltdp_acQHPTPVfO4UHeVHsai1tacKIe3tB5aWHKQVNlEMU4DZjUik90XMhpei_oSFNA1Mblw0IUSOSLxNh7GgbU7Wq3a6tyuJP8D_m4E7tQiwQQWKIxdQFNW6bvGMzyhgVmDEBh8fgSRmZFQxTvikbUCwxbOgkJLnbd5glyL29msrbeth7vy5sR3xSb_bgs8cYNUUQj25RFyurRt3SPuCeGtPDbbmvknZ4RxCjI4mvs2BgFT2WiX32Rn-OdUtHS0)
 
 Зареєстрований користувач має можливість:
