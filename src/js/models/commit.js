@@ -17,7 +17,7 @@ Commit.init(
             type: Sequelize.STRING
         },
         createdAt: {
-            type: Sequelize.STRING,
+            type: Sequelize.DATE,
             unique: true
         },
         Branch_name: {
@@ -27,7 +27,7 @@ Commit.init(
     },
     {
         sequelize: connection,
-        modelName: "user",
+        modelName: "Commit",
     }
 );
 

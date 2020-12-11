@@ -34,7 +34,7 @@ User.init(
     },
     {
         sequelize: connection,
-        modelName: "user",
+        modelName: "User",
     }
 );
 
